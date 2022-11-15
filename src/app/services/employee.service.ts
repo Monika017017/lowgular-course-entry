@@ -7,8 +7,7 @@ import {PersonModel} from "../model/person.model";
 export class EmployeeService {
   constructor(private _httpClient: HttpClient) {
   }
-
   getAll(): Observable<PersonModel[]> {
-   return this ._httpClient.get<PersonModel[]>('assets/data/people.json');
+    return this ._httpClient.get<PersonModel[]>('assets/data/people.json');
   }
 }
