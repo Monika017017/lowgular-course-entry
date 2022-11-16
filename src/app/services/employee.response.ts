@@ -1,7 +1,7 @@
 export interface EmployeeResponse {
     id: string;
-    employeeName: string;
-    employeeSalary: string;
-    employeeAge: string;
-    profileImage: string;
+    employee_name: string;
+    employee_salary: string;
+    employee_age: string;
+    profile_image: string;
 }
